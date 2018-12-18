@@ -5,8 +5,9 @@ octopus是清华大学 Storage Research Group 设计并实现的基于RDMA的分
 代码在github上开源 : `https://github.com/thustorage/octopus.git`
 
 ### **环境配置**
+在主机上安装 `fedora 27` 操作系统
 ```shell
-sudo yum install fuse-devel cryptopp-devel boost-devel libibverbs libibverbs-devel gcc-c++ openssl-devel cmake mpic**
+sudo yum install fuse-devel cryptopp-devel boost-devel libibverbs-devel gcc-c++ openssl-devel cmake mpic**
 ```
 根据 `参考资料 1` 为mpicxx配置环境变量
 ```
@@ -16,13 +17,19 @@ export LD_LIBRARY_PATH=/usr/lib64/mpich/lib:$LD_LIBRARY_PATH
 ```
 根据 `参考资料 2` 删除系统自带的JDK \
 根据 `参考资料 3` 安装Oracle JDK，配置环境变量
+```
+export JAVA_HOME=/usr/java/jdk1.8.0_191-amd64
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+```
 
 ### **安装过程**
-在主机上安装 `fedora 27` 操作系统
 ```shell
 git clone https://github.com/thustorage/octopus.git
 cd octopus
 mkdir build
+cmake ..
+make -j8
 ```
 
 ### **参考资料**
