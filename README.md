@@ -19,3 +19,10 @@
 
 ## **虚拟化技术**
 <li>lxd使用教程</li>
+
+## **网络配置**
+<li>RDMA环境配置</li>
+
+# 软件安装记录
+<li>octopus安装教程</li>
+<li>postgresql-10.5安装教程</li>
