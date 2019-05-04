@@ -1,5 +1,5 @@
 ## <center>**graph服务器安装Ubuntu16系统**</center>
-
+author : jyh
 ### **步骤一**
 
 拔出服务器显卡，换成实验室GTX的显卡
