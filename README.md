@@ -26,3 +26,4 @@
 <li>graph服务器安装ubuntu16.md</li>
 <li>RDMA环境配置</li>
 <li>simfs性能gfio展示</li>
+<li>命令行登陆校园网</li>
