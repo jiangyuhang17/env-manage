@@ -1,28 +1,26 @@
 # DBA
 记录`管理服务器`所采用的相关`技术`的文档
 
-[rootlink]:https://github.com/jiangyuhang17/DBA/blob/master/
-
 # 文档目录
 
 ### **系统调用**
-#### [添加系统函数模块插入法]([rootlink]/添加系统函数模块插入法.md)
+#### [添加系统函数模块插入法](./添加系统函数模块插入法.md)
 
 ### **磁盘管理**
-#### [lvm使用教程]([rootlink]/lvm使用教程.md)
+#### [lvm使用教程](./lvm使用教程.md)
 
 ### **虚拟化技术**
-<li>lxd使用教程</li>
+#### [lxd使用教程](./lxd使用教程.md)
 
 ### **系统备份**
-<li>Ubuntu系统备份教程</li>
+#### [Ubuntu系统备份教程](./Ubuntu系统备份教程.md)
 
 # 软件安装记录
-<li>octopus安装教程</li>
-<li>postgresql-10.5安装教程</li>
+#### [postgresql-10.5安装教程](./软件安装记录/postgresql-10.5安装教程)
+#### [octopus安装教程](./octopus安装教程.md)
 
 # 实验室环境配置
-<li>graph服务器安装ubuntu16.md</li>
-<li>RDMA环境配置</li>
-<li>simfs性能gfio展示</li>
-<li>命令行登陆校园网</li>
+#### [graph服务器安装ubuntu16](./实验室环境配置/graph服务器安装ubuntu16.md)
+#### [RDMA环境配置](./实验室环境配置/RDMA环境配置.md)
+#### [simfs性能gfio展示](./实验室环境配置/simfs性能gfio展示.md)
+#### [命令行登陆校园网](./实验室环境配置/命令行登陆校园网.md)
