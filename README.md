@@ -15,11 +15,11 @@
 ### **系统备份**
 #### [Ubuntu系统备份教程](./Ubuntu系统备份教程.md)
 
-# 软件安装记录
+### 软件安装记录
 #### [postgresql-10.5安装教程](./软件安装记录/postgresql-10.5安装教程.md)
 #### [octopus安装教程](./软件安装记录/octopus安装教程.md)
 
-# 实验室环境配置
+### 实验室环境配置
 #### [graph服务器安装ubuntu16](./实验室环境配置/graph服务器安装ubuntu16.md)
 #### [RDMA环境配置](./实验室环境配置/RDMA环境配置.md)
 #### [simfs性能gfio展示](./实验室环境配置/simfs性能gfio展示.md)
