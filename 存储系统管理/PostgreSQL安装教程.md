@@ -1,4 +1,4 @@
-## <center>**PostgreSQL-10.5**</center>
+## <center>**PostgreSQL安装教程**</center>
 author : jyh
 ### **下载PostgreSQL安装包**
 
