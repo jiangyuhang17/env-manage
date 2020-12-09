@@ -1,5 +1,8 @@
 ## <center>**simfs性能gfio展示**</center>
 author : jyh
+## **文件在NAS中的位置**
+/lab/software/simfs/simfs性能gfio展示
+
 ## **编译Linux内核**
 在Ubuntu16上，编译内核 `linux-4.4.30-simfs-simulator`
 
