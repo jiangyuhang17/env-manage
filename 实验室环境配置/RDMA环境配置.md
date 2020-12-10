@@ -11,6 +11,8 @@ sudo yum install python2-libxml2 tcsh tk
 sudo ./mlnxofedinstall
 ```
 
+**PS**:BIOS的Secure Boot可能导致驱动安装失败！！！
+
 ### **开启IB服务**
 ```shell
 sudo /etc/init.d/openibd restart
