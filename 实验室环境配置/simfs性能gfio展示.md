@@ -38,7 +38,39 @@ sudo update-grub
 ```
 
 ## **挂载文件系统**
-在相应文件系统模块目录下执行 `setup_XXXX.sh` 脚本，用 `df -hT` 确认
+在相应文件系统模块目录下执行 `setup_simfs.sh` 脚本，用 `df -hT` 确认
+
+```
+sudo umount /mnt/simfs
+
+sleep 1
+
+sudo mkdir /mnt/simfs
+
+sleep 1
+
+sudo rmmod simfs
+
+sleep 1
+
+make
+
+sleep 1
+
+sudo insmod simfs.ko
+
+sleep 1
+
+sudo fdisk -l | grep pmem
+
+sleep 1
+
+sudo mount -t nvmmfs -o init /dev/pmem2 /mnt/simfs
+
+sleep 1
+
+sudo chmod 777 /mnt/simfs/
+```
 
 ## **安装fio**
 为了兼容性，安装fio-2.1.10
